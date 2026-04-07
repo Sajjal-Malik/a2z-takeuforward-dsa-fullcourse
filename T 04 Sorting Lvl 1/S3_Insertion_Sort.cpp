@@ -44,7 +44,7 @@ void insertionSortSwap(int numbers[], int totalElements)
         int previousIndex = currentIndex;
 
         // Swap backwards until element is placed correctly
-        while (previousIndex > 0 && numbers[previousIndex] < numbers[previousIndex - 1])
+        while (previousIndex > 0 && numbers[previousIndex - 1] > numbers[previousIndex])
         {
             swap(numbers[previousIndex], numbers[previousIndex - 1]);
             previousIndex--;
