@@ -55,9 +55,7 @@ void mergeSortedRanges(vector<int> &array, int startIndex, int middleIndex, int 
     mergeSortRecursive():
     Recursively sorts the vector using merge sort.
 */
-void mergeSortRecursive(vector<int> &array,
-                        int startIndex,
-                        int endIndex)
+void mergeSortRecursive(vector<int> &array, int startIndex, int endIndex)
 {
     if (startIndex >= endIndex)
         return; // base case
